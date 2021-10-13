@@ -5,7 +5,7 @@ const timtSchema = mongoose.Schema({
     type: String,
     required: true
   },
-  description: {
+  comment: {
     type: String
   }
 }, {timestamp: true})

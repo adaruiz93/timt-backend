@@ -3,7 +3,6 @@ const router = express.Router()
 const Timt = require('../models/timt')
 
 
-
 //index route
 router.get('/', async (req, res) => {
   try {
@@ -24,7 +23,6 @@ router.get('/:id', async (req, res) => {
   }
  })
  
-
 //create/post route
 router.post('/', async (req, res) => {
   try {
@@ -55,7 +53,4 @@ router.put('/:id', async (req, res) => {
   }
  })
  
-
-
-
 module.exports = router
