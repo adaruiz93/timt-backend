@@ -1,6 +1,9 @@
 const mongoose = require('mongoose')
 
 const timtSchema = mongoose.Schema({
+  name: {
+    type: String
+  },
   mood: {
     type: String,
     required: true
