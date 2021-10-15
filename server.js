@@ -7,7 +7,7 @@ const timtController = require('./controllers/timt.js')
 const app = express ()
 const PORT = process.env.PORT || 9000
 
-const whiteList = ['http://localhost:3000', "https://timt.herokuapp.com/"]
+const whiteList = ['http://localhost:3000', "https://timt.herokuapp.com"]
 const corsOptions = {
   origin: (origin, callback) => {
     if (whiteList.includes(origin) || !origin) {
