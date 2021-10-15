@@ -5,7 +5,7 @@ const DB_URL = process.env.DB_URL || 'mongodb://localhost:27017/timt'
 mongoose.connection.on('error', err => console.log(err.message + ' is Mongod not running?'))
 mongoose.connection.on('disconnected', () => console.log('mongo disconnected'))
 
-mongoose.connect('mongodb://localhost:27017/timt', {
+mongoose.connect(DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
