@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>This Is Me Trying</h1> <p>A place where you can keep track of your mood. You are welcomed with a quote and have access to resources related to mental health.</p>",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +15,14 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.10"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaruiz93/timt-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adaruiz93/timt-backend/issues"
+  },
+  "homepage": "https://github.com/adaruiz93/timt-backend#readme"
 }
